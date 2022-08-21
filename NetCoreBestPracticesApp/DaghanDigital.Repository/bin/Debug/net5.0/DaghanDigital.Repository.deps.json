@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "DaghanDigital.Repository/1.0.0": {
+        "dependencies": {
+          "DaghanDigital.Core": "1.0.0"
+        },
+        "runtime": {
+          "DaghanDigital.Repository.dll": {}
+        }
+      },
+      "DaghanDigital.Core/1.0.0": {
+        "runtime": {
+          "DaghanDigital.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DaghanDigital.Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DaghanDigital.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
