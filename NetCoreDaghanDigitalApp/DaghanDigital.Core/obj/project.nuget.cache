@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2H6c0C6FoJjaK8nGT5zKkibat73cFGOGIKei3MYy4fu/R18ItWEdP2H17EnljMgjJtntOo+d6kGzfQsoNbZvkA==",
+  "dgSpecHash": "OYobMyOK0y8kfoXKfsBIUp6i/U+YURFj0wynl7EY7EborPiMpRqwzp/pszOk0gUGG3T4rOgfpgyVw6Ia2YhskA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\STElb\\OneDrive\\Belgeler\\GitHub\\Asp.NetCoreBestPracticesProject\\NetCoreBestPracticesApp\\DaghanDigital.Core\\DaghanDigital.Core.csproj",
+  "projectFilePath": "C:\\Users\\STElb\\OneDrive\\Belgeler\\GitHub\\Asp.NetCoreDaghanDigitalApp\\NetCoreDaghanDigitalApp\\DaghanDigital.Core\\DaghanDigital.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

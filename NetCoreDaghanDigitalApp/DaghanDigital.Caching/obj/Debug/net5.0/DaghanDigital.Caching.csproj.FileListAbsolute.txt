@@ -1,0 +1,12 @@
+C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDaghanDigitalApp\DaghanDigital.Caching\bin\Debug\net5.0\DaghanDigital.Caching.deps.json
+C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDaghanDigitalApp\DaghanDigital.Caching\bin\Debug\net5.0\DaghanDigital.Caching.dll
+C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDaghanDigitalApp\DaghanDigital.Caching\bin\Debug\net5.0\ref\DaghanDigital.Caching.dll
+C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDaghanDigitalApp\DaghanDigital.Caching\bin\Debug\net5.0\DaghanDigital.Caching.pdb
+C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDaghanDigitalApp\DaghanDigital.Caching\obj\Debug\net5.0\DaghanDigital.Caching.csproj.AssemblyReference.cache
+C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDaghanDigitalApp\DaghanDigital.Caching\obj\Debug\net5.0\DaghanDigital.Caching.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDaghanDigitalApp\DaghanDigital.Caching\obj\Debug\net5.0\DaghanDigital.Caching.AssemblyInfoInputs.cache
+C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDaghanDigitalApp\DaghanDigital.Caching\obj\Debug\net5.0\DaghanDigital.Caching.AssemblyInfo.cs
+C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDaghanDigitalApp\DaghanDigital.Caching\obj\Debug\net5.0\DaghanDigital.Caching.csproj.CoreCompileInputs.cache
+C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDaghanDigitalApp\DaghanDigital.Caching\obj\Debug\net5.0\DaghanDigital.Caching.dll
+C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDaghanDigitalApp\DaghanDigital.Caching\obj\Debug\net5.0\ref\DaghanDigital.Caching.dll
+C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDaghanDigitalApp\DaghanDigital.Caching\obj\Debug\net5.0\DaghanDigital.Caching.pdb

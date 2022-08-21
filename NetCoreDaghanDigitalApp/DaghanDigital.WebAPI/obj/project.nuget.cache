@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yQAjCAJRlZCIEBtbsvDB6gDmgX+H7mq2gKjDeYk3tPI2VkbxSZd+YU0pje5F7eRFUizaLCtAOWsJmLMdg+ow9Q==",
+  "dgSpecHash": "EXPNLucqeWkpfOyArslgoBoj4URG9IPgvI6UwcyaU+SAr4GLKwWXT/qVb4NZ12VMHqe91sGVsaIOhNSkGactMQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\STElb\\OneDrive\\Belgeler\\GitHub\\Asp.NetCoreBestPracticesProject\\NetCoreBestPracticesApp\\DaghanDigital.WebAPI\\DaghanDigital.WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\STElb\\OneDrive\\Belgeler\\GitHub\\Asp.NetCoreDaghanDigitalApp\\NetCoreDaghanDigitalApp\\DaghanDigital.WebAPI\\DaghanDigital.WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\STElb\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\STElb\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
