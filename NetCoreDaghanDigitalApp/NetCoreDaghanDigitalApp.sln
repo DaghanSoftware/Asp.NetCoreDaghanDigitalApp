@@ -9,8 +9,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DaghanDigital.Repository", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DaghanDigital.Service", "DaghanDigital.Service\DaghanDigital.Service.csproj", "{3DDB40F7-A883-4E21-B82A-0B3751011B78}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DaghanDigital.WebUI", "DaghanDigital.WebUI\DaghanDigital.WebUI.csproj", "{2B480384-A962-492B-9303-FC7C9579CA79}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DaghanDigital.Caching", "DaghanDigital.Caching\DaghanDigital.Caching.csproj", "{86BDAB0C-FB34-448D-A9CC-26FCCC201EAB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{096502A7-9297-4487-A34A-A4A4894B34A1}"
@@ -18,7 +16,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaghanDigital.WebAPI", "DaghanDigital.WebAPI\DaghanDigital.WebAPI.csproj", "{78076B2A-A42F-41A2-9568-F97E42FF54BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DaghanDigital.WebUI", "DaghanDigital.WebUI\DaghanDigital.WebUI.csproj", "{B88AB702-F7C5-4A0E-9567-4A04D1CBE637}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaghanDigital.WebAPI", "DENEME\DaghanDigital.WebAPI.csproj", "{43307A59-7659-4F90-B5E6-7EA6D8DC18D5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,18 +38,18 @@ Global
 		{3DDB40F7-A883-4E21-B82A-0B3751011B78}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DDB40F7-A883-4E21-B82A-0B3751011B78}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DDB40F7-A883-4E21-B82A-0B3751011B78}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2B480384-A962-492B-9303-FC7C9579CA79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2B480384-A962-492B-9303-FC7C9579CA79}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2B480384-A962-492B-9303-FC7C9579CA79}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2B480384-A962-492B-9303-FC7C9579CA79}.Release|Any CPU.Build.0 = Release|Any CPU
 		{86BDAB0C-FB34-448D-A9CC-26FCCC201EAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{86BDAB0C-FB34-448D-A9CC-26FCCC201EAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86BDAB0C-FB34-448D-A9CC-26FCCC201EAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86BDAB0C-FB34-448D-A9CC-26FCCC201EAB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{78076B2A-A42F-41A2-9568-F97E42FF54BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{78076B2A-A42F-41A2-9568-F97E42FF54BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{78076B2A-A42F-41A2-9568-F97E42FF54BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{78076B2A-A42F-41A2-9568-F97E42FF54BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B88AB702-F7C5-4A0E-9567-4A04D1CBE637}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B88AB702-F7C5-4A0E-9567-4A04D1CBE637}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B88AB702-F7C5-4A0E-9567-4A04D1CBE637}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B88AB702-F7C5-4A0E-9567-4A04D1CBE637}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43307A59-7659-4F90-B5E6-7EA6D8DC18D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43307A59-7659-4F90-B5E6-7EA6D8DC18D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43307A59-7659-4F90-B5E6-7EA6D8DC18D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43307A59-7659-4F90-B5E6-7EA6D8DC18D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
