@@ -8,7 +8,7 @@ namespace DaghanDigital.Core.Models.Entities
 {
     public class Product:BaseEntity
     {
-        public string ProductName { get; set; }
+        public string? ProductName { get; set; }
 
         public int Stock { get; set; }
 
@@ -16,8 +16,8 @@ namespace DaghanDigital.Core.Models.Entities
 
         public int CategoryId { get; set; }
 
-        public Category Category { get; set; }
+        public Category? Category { get; set; }
 
-        public ProductFeature ProductFeature { get; set; }
+        public ProductFeature? ProductFeature { get; set; }
     }
 }

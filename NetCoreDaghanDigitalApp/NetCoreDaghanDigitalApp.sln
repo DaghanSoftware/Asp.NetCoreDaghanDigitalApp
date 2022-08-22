@@ -1,19 +1,24 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32630.194
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaghanDigital.Core", "DaghanDigital.Core\DaghanDigital.Core.csproj", "{0E4E9605-6096-4475-BE74-720CC8145B2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DaghanDigital.Core", "DaghanDigital.Core\DaghanDigital.Core.csproj", "{0E4E9605-6096-4475-BE74-720CC8145B2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaghanDigital.Repository", "DaghanDigital.Repository\DaghanDigital.Repository.csproj", "{8A123341-E28A-462C-BA46-7E57EAD7968F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DaghanDigital.Repository", "DaghanDigital.Repository\DaghanDigital.Repository.csproj", "{8A123341-E28A-462C-BA46-7E57EAD7968F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaghanDigital.Service", "DaghanDigital.Service\DaghanDigital.Service.csproj", "{3DDB40F7-A883-4E21-B82A-0B3751011B78}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DaghanDigital.Service", "DaghanDigital.Service\DaghanDigital.Service.csproj", "{3DDB40F7-A883-4E21-B82A-0B3751011B78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaghanDigital.WebAPI", "DaghanDigital.WebAPI\DaghanDigital.WebAPI.csproj", "{8FFD4010-2217-41F2-AF54-B8B93846F0CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DaghanDigital.WebAPI", "DaghanDigital.WebAPI\DaghanDigital.WebAPI.csproj", "{8FFD4010-2217-41F2-AF54-B8B93846F0CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaghanDigital.WebUI", "DaghanDigital.WebUI\DaghanDigital.WebUI.csproj", "{2B480384-A962-492B-9303-FC7C9579CA79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DaghanDigital.WebUI", "DaghanDigital.WebUI\DaghanDigital.WebUI.csproj", "{2B480384-A962-492B-9303-FC7C9579CA79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaghanDigital.Caching", "DaghanDigital.Caching\DaghanDigital.Caching.csproj", "{86BDAB0C-FB34-448D-A9CC-26FCCC201EAB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DaghanDigital.Caching", "DaghanDigital.Caching\DaghanDigital.Caching.csproj", "{86BDAB0C-FB34-448D-A9CC-26FCCC201EAB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{096502A7-9297-4487-A34A-A4A4894B34A1}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
