@@ -1,0 +1,12 @@
+C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDaghanDigitalApp\DaghanDigital.Core\bin\Debug\net6.0\DaghanDigital.Core.deps.json
+C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDaghanDigitalApp\DaghanDigital.Core\bin\Debug\net6.0\DaghanDigital.Core.dll
+C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDaghanDigitalApp\DaghanDigital.Core\bin\Debug\net6.0\DaghanDigital.Core.pdb
+C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDaghanDigitalApp\DaghanDigital.Core\obj\Debug\net6.0\DaghanDigital.Core.csproj.AssemblyReference.cache
+C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDaghanDigitalApp\DaghanDigital.Core\obj\Debug\net6.0\DaghanDigital.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDaghanDigitalApp\DaghanDigital.Core\obj\Debug\net6.0\DaghanDigital.Core.AssemblyInfoInputs.cache
+C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDaghanDigitalApp\DaghanDigital.Core\obj\Debug\net6.0\DaghanDigital.Core.AssemblyInfo.cs
+C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDaghanDigitalApp\DaghanDigital.Core\obj\Debug\net6.0\DaghanDigital.Core.csproj.CoreCompileInputs.cache
+C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDaghanDigitalApp\DaghanDigital.Core\obj\Debug\net6.0\DaghanDigital.Core.dll
+C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDaghanDigitalApp\DaghanDigital.Core\obj\Debug\net6.0\refint\DaghanDigital.Core.dll
+C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDaghanDigitalApp\DaghanDigital.Core\obj\Debug\net6.0\DaghanDigital.Core.pdb
+C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDaghanDigitalApp\DaghanDigital.Core\obj\Debug\net6.0\ref\DaghanDigital.Core.dll

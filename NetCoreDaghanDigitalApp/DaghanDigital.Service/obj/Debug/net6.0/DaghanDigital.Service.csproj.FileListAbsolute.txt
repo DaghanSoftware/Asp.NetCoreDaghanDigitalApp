@@ -1,0 +1,17 @@
+C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDaghanDigitalApp\DaghanDigital.Service\bin\Debug\net6.0\DaghanDigital.Service.deps.json
+C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDaghanDigitalApp\DaghanDigital.Service\bin\Debug\net6.0\DaghanDigital.Service.dll
+C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDaghanDigitalApp\DaghanDigital.Service\bin\Debug\net6.0\DaghanDigital.Service.pdb
+C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDaghanDigitalApp\DaghanDigital.Service\bin\Debug\net6.0\DaghanDigital.Core.dll
+C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDaghanDigitalApp\DaghanDigital.Service\bin\Debug\net6.0\DaghanDigital.Repository.dll
+C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDaghanDigitalApp\DaghanDigital.Service\bin\Debug\net6.0\DaghanDigital.Repository.pdb
+C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDaghanDigitalApp\DaghanDigital.Service\bin\Debug\net6.0\DaghanDigital.Core.pdb
+C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDaghanDigitalApp\DaghanDigital.Service\obj\Debug\net6.0\DaghanDigital.Service.csproj.AssemblyReference.cache
+C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDaghanDigitalApp\DaghanDigital.Service\obj\Debug\net6.0\DaghanDigital.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDaghanDigitalApp\DaghanDigital.Service\obj\Debug\net6.0\DaghanDigital.Service.AssemblyInfoInputs.cache
+C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDaghanDigitalApp\DaghanDigital.Service\obj\Debug\net6.0\DaghanDigital.Service.AssemblyInfo.cs
+C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDaghanDigitalApp\DaghanDigital.Service\obj\Debug\net6.0\DaghanDigital.Service.csproj.CoreCompileInputs.cache
+C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDaghanDigitalApp\DaghanDigital.Service\obj\Debug\net6.0\DaghanDigital.Service.csproj.CopyComplete
+C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDaghanDigitalApp\DaghanDigital.Service\obj\Debug\net6.0\DaghanDigital.Service.dll
+C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDaghanDigitalApp\DaghanDigital.Service\obj\Debug\net6.0\refint\DaghanDigital.Service.dll
+C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDaghanDigitalApp\DaghanDigital.Service\obj\Debug\net6.0\DaghanDigital.Service.pdb
+C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDaghanDigitalApp\DaghanDigital.Service\obj\Debug\net6.0\ref\DaghanDigital.Service.dll
