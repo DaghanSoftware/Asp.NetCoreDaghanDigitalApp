@@ -3,6 +3,8 @@ using DaghanDigital.Core.Services;
 using DaghanDigital.Repository;
 using DaghanDigital.Repository.Repositories;
 using DaghanDigital.Repository.UnitOfWorks;
+using DaghanDigital.Service.Mapping;
+using DaghanDigital.Service.Services;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection;
 
@@ -17,7 +19,8 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<UnitOfWork, UnitOfWork>();
 builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
-//builder.Services.AddScoped(typeof(IService<>), typeof(Service<>));
+builder.Services.AddScoped(typeof(IService<>), typeof(Service<>));
+builder.Services.AddAutoMapper(typeof(MapProfile));
 
 builder.Services.AddDbContext<AppDbContext>(x =>
 {

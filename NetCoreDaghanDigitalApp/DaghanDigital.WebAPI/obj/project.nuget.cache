@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "M0xDsjD0XLM2AegdSpdImR1Da9O+CUzPPP4yMCMfjMEQDpFca9cOeYIO+Ww0mGiHRqQDmpeTAduGzrCLrNP/9g==",
+  "dgSpecHash": "PnQ9igpBwGBPkzK0+Fu6h3l9hcouH2GpPjVlK3+PWv+edL9bvryJtFzh/3WEjFt0DWRdTOS5NJ6tVTq+G7EL0A==",
   "success": true,
   "projectFilePath": "C:\\Users\\STElb\\OneDrive\\Belgeler\\GitHub\\Asp.NetCoreDaghanDigitalApp\\NetCoreDaghanDigitalApp\\DaghanDigital.WebAPI\\DaghanDigital.WebAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\STElb\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
+    "C:\\Users\\STElb\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\STElb\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
-    "C:\\Users\\STElb\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\STElb\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\STElb\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\STElb\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\STElb\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.8\\microsoft.entityframeworkcore.6.0.8.nupkg.sha512",
