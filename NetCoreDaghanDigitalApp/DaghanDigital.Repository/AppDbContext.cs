@@ -22,6 +22,24 @@ namespace DaghanDigital.Repository
         {
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
 
+            modelBuilder.Entity<ProductFeature>().HasData(new ProductFeature()
+            {
+                Id=1,
+                Color="Kırmızı",
+                Height=100,
+                Width=200,
+                ProductId=5
+            },
+            new ProductFeature()
+            {
+                Id = 2,
+                Color = "Beyaz",
+                Height = 200,
+                Width = 300,
+                ProductId = 4
+            }
+            );
+
             base.OnModelCreating(modelBuilder);
         }
     }
