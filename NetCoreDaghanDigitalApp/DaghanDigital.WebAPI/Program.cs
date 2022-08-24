@@ -8,6 +8,7 @@ using DaghanDigital.Service.Mapping;
 using DaghanDigital.Service.Services;
 using DaghanDigital.Service.Validations;
 using DaghanDigital.WebAPI.Filters;
+using DaghanDigital.WebAPI.Middlewares;
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -57,7 +58,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
+app.UserCustomException();
 app.UseAuthorization();
 
 app.MapControllers();
