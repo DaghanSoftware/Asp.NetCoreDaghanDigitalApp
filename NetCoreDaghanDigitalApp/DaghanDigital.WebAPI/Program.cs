@@ -1,5 +1,6 @@
 using DaghanDigital.Core.Repositories;
 using DaghanDigital.Core.Services;
+using DaghanDigital.Core.UnitOfWorks;
 using DaghanDigital.Repository;
 using DaghanDigital.Repository.Repositories;
 using DaghanDigital.Repository.UnitOfWorks;
@@ -17,7 +18,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddScoped<UnitOfWork, UnitOfWork>();
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 builder.Services.AddScoped(typeof(IService<>), typeof(Service<>));
 builder.Services.AddAutoMapper(typeof(MapProfile));
