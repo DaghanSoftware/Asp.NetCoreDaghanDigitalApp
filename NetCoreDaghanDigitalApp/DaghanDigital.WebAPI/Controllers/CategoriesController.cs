@@ -1,9 +1,11 @@
 ﻿using DaghanDigital.Core.Services;
+using DaghanDigital.WebAPI.Filters;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DaghanDigital.WebAPI.Controllers
 {
+
     [Route("api/[controller]")]
     [ApiController]
     public class CategoriesController : CustomBaseController
