@@ -1,4 +1,5 @@
 ﻿using Autofac;
+using DaghanDigital.Caching;
 using DaghanDigital.Core.Repositories;
 using DaghanDigital.Core.Services;
 using DaghanDigital.Core.UnitOfWorks;
@@ -31,6 +32,8 @@ namespace DaghanDigital.WebAPI.Modules
 
             builder.RegisterAssemblyTypes(apiAssembly, repoAssembly, serviceAssembly).Where(x => x.Name.EndsWith
             ("Service")).AsImplementedInterfaces().InstancePerLifetimeScope();
+
+            builder.RegisterType<ProductServiceWithCaching>().As<IProductService>();
 
         }
     }

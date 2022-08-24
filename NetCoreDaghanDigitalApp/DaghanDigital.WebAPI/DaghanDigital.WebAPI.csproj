@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DaghanDigital.Service\DaghanDigital.Service.csproj" />
+    <ProjectReference Include="..\DaghanDigital.Caching\DaghanDigital.Caching.csproj" />
   </ItemGroup>
 
 </Project>

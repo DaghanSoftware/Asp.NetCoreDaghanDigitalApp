@@ -9,7 +9,7 @@
       "DaghanDigital.WebAPI/1.0.0": {
         "dependencies": {
           "Autofac.Extensions.DependencyInjection": "8.0.0",
-          "DaghanDigital.Service": "1.0.0",
+          "DaghanDigital.Caching": "1.0.0",
           "Swashbuckle.AspNetCore": "6.2.3"
         },
         "runtime": {
@@ -533,6 +533,14 @@
           }
         }
       },
+      "DaghanDigital.Caching/1.0.0": {
+        "dependencies": {
+          "DaghanDigital.Service": "1.0.0"
+        },
+        "runtime": {
+          "DaghanDigital.Caching.dll": {}
+        }
+      },
       "DaghanDigital.Core/1.0.0": {
         "runtime": {
           "DaghanDigital.Core.dll": {}
@@ -936,6 +944,11 @@
       "sha512": "sha512-CeWTdRNfRaSh0pm2gDTJFwVaXfTq6Xwv/sA887iwPTneW7oMtMlpvDIO+U60+3GWTB7Aom6oQwv5VZVUhQRdPQ==",
       "path": "system.windows.extensions/4.7.0",
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
+    },
+    "DaghanDigital.Caching/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "DaghanDigital.Core/1.0.0": {
       "type": "project",

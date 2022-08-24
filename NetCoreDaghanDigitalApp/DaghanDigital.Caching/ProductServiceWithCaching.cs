@@ -17,7 +17,7 @@ using System.Threading.Tasks;
 
 namespace DaghanDigital.Caching
 {
-    public class ProductServiceWithCashing : IProductService
+    public class ProductServiceWithCaching : IProductService
     {
         private const string CacheProductKey = "productsCache";
         private readonly IMapper _mapper;
@@ -25,7 +25,7 @@ namespace DaghanDigital.Caching
         private readonly IProductRepository _productRepository;
         private readonly IUnitOfWork _unitOfWork;
 
-        public ProductServiceWithCashing(IMapper mapper, IMemoryCache memoryCache, IProductRepository productRepository, IUnitOfWork unitOfWork)
+        public ProductServiceWithCaching(IMapper mapper, IMemoryCache memoryCache, IProductRepository productRepository, IUnitOfWork unitOfWork)
         {
             _mapper = mapper;
             _memoryCache = memoryCache;
@@ -33,7 +33,7 @@ namespace DaghanDigital.Caching
             _unitOfWork = unitOfWork;
             if (!_memoryCache.TryGetValue(CacheProductKey,out _))
             {
-                _memoryCache.Set(CacheProductKey, _productRepository.GetProductWithCategory());
+                _memoryCache.Set(CacheProductKey, _productRepository.GetProductWithCategory().Result);
             }
         }
 
