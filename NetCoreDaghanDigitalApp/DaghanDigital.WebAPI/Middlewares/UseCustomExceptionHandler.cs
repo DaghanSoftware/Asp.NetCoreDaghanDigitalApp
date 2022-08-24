@@ -10,7 +10,7 @@ namespace DaghanDigital.WebAPI.Middlewares
 
     public static class UseCustomExceptionHandler
     {
-        public static void UserCustomException(this IApplicationBuilder app)
+        public static void UseCustomException(this IApplicationBuilder app)
         {
             app.UseExceptionHandler(config =>
             {
@@ -23,6 +23,7 @@ namespace DaghanDigital.WebAPI.Middlewares
                     var statusCode = exceptionFeature.Error switch
                     {
                         ClientSideException => 400,
+                        NotFoundException=>404,
                         _ => 500
                     };
                     context.Response.StatusCode = statusCode;

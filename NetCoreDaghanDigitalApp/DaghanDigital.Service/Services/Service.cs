@@ -53,7 +53,7 @@ namespace DaghanDigital.Service.Services
 
             if (hasProduct == null)
             {
-                throw new ClientSideException($"{typeof(T).Name} not found");
+                throw new NotFoundException($"{typeof(T).Name}({id}) not found");
             }
             return hasProduct;
         }
