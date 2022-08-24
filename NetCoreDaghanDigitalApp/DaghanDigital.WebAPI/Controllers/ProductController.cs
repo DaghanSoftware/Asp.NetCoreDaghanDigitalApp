@@ -36,6 +36,7 @@ namespace DaghanDigital.WebAPI.Controllers
 
             return CreateActionResult(CustomResponseDto<List<ProductDto>>.Success(200, productDtos));
         }
+        [ServiceFilter(typeof(NotFoundFilter<Product>))]
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
