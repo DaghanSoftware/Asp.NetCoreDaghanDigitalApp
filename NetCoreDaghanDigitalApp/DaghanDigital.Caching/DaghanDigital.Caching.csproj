@@ -4,4 +4,8 @@
     <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DaghanDigital.Service\DaghanDigital.Service.csproj" />
+  </ItemGroup>
+
 </Project>

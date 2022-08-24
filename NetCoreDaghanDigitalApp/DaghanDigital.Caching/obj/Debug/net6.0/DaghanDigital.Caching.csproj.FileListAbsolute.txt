@@ -10,3 +10,10 @@ C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDagha
 C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDaghanDigitalApp\DaghanDigital.Caching\obj\Debug\net6.0\refint\DaghanDigital.Caching.dll
 C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDaghanDigitalApp\DaghanDigital.Caching\obj\Debug\net6.0\DaghanDigital.Caching.pdb
 C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDaghanDigitalApp\DaghanDigital.Caching\obj\Debug\net6.0\ref\DaghanDigital.Caching.dll
+C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDaghanDigitalApp\DaghanDigital.Caching\bin\Debug\net6.0\DaghanDigital.Core.dll
+C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDaghanDigitalApp\DaghanDigital.Caching\bin\Debug\net6.0\DaghanDigital.Repository.dll
+C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDaghanDigitalApp\DaghanDigital.Caching\bin\Debug\net6.0\DaghanDigital.Service.dll
+C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDaghanDigitalApp\DaghanDigital.Caching\bin\Debug\net6.0\DaghanDigital.Service.pdb
+C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDaghanDigitalApp\DaghanDigital.Caching\bin\Debug\net6.0\DaghanDigital.Core.pdb
+C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDaghanDigitalApp\DaghanDigital.Caching\bin\Debug\net6.0\DaghanDigital.Repository.pdb
+C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDaghanDigitalApp\DaghanDigital.Caching\obj\Debug\net6.0\DaghanDigital.Caching.csproj.CopyComplete

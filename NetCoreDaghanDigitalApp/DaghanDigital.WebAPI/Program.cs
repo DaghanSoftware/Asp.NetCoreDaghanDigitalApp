@@ -31,6 +31,9 @@ builder.Services.Configure<ApiBehaviorOptions>(options =>
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+/*CachingService*/
+builder.Services.AddMemoryCache();
+
 builder.Services.AddScoped(typeof(NotFoundFilter<>));
 
 builder.Services.AddAutoMapper(typeof(MapProfile));
@@ -45,6 +48,9 @@ builder.Services.AddDbContext<AppDbContext>(x =>
 /*AutoFac*/
 builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());
 builder.Host.ConfigureContainer<ContainerBuilder>(containerBuilder => containerBuilder.RegisterModule(new RepoServiceModule()));
+
+
+
 
 
 var app = builder.Build();
