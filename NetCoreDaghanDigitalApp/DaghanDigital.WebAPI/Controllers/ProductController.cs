@@ -14,12 +14,20 @@ namespace DaghanDigital.WebAPI.Controllers
     {
         private readonly IMapper _mapper;
         private readonly IService<Product> _service;
+        private readonly IProductService _productService;
 
-        public ProductController(IMapper mapper, IService<Product> service)
+        public ProductController(IMapper mapper, IProductService productService, IService<Product> service)
         {
+            _productService = productService;
             _mapper = mapper;
             _service = service;
         }
+        [HttpGet("[action]")]
+        public async Task<IActionResult> GetProductWithCategory()
+        {
+            return CreateActionResult(await _productService.GetProductWithCategory());
+        }
+
         [HttpGet]
         public async Task<IActionResult> All()
         {
