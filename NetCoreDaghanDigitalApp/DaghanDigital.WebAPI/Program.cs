@@ -6,6 +6,8 @@ using DaghanDigital.Repository.Repositories;
 using DaghanDigital.Repository.UnitOfWorks;
 using DaghanDigital.Service.Mapping;
 using DaghanDigital.Service.Services;
+using DaghanDigital.Service.Validations;
+using FluentValidation.AspNetCore;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection;
 
@@ -13,7 +15,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddControllers();
+builder.Services.AddControllers().AddFluentValidation(x=>x.RegisterValidatorsFromAssemblyContaining<ProductDtoValidator>());
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
