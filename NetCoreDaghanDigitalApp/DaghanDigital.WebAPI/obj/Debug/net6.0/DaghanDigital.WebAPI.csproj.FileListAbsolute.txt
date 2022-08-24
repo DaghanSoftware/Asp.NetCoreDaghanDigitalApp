@@ -68,3 +68,5 @@ C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDagha
 C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDaghanDigitalApp\DaghanDigital.WebAPI\bin\Debug\net6.0\FluentValidation.dll
 C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDaghanDigitalApp\DaghanDigital.WebAPI\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
 C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDaghanDigitalApp\DaghanDigital.WebAPI\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDaghanDigitalApp\DaghanDigital.WebAPI\bin\Debug\net6.0\Autofac.dll
+C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDaghanDigitalApp\DaghanDigital.WebAPI\bin\Debug\net6.0\Autofac.Extensions.DependencyInjection.dll

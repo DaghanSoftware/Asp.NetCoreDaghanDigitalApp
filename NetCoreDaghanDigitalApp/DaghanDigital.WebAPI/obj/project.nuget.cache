@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "xm4L/Vl/xL/4qvX0EU+QuLfsZcfi4KPl7cWJeM9qnl6OEMUO3DOuJUzzWOsAyjz3efLaqJzBNwlKtVvZ4445NA==",
+  "dgSpecHash": "zUF6Bnzv1D8JUslf60N49U44cf2b04hp8WYMgn/aBAlcmmYykn5n6zhrgTQO/06KmJqqypKev1ZurCySWAvsAA==",
   "success": true,
   "projectFilePath": "C:\\Users\\STElb\\OneDrive\\Belgeler\\GitHub\\Asp.NetCoreDaghanDigitalApp\\NetCoreDaghanDigitalApp\\DaghanDigital.WebAPI\\DaghanDigital.WebAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\STElb\\.nuget\\packages\\autofac\\6.4.0\\autofac.6.4.0.nupkg.sha512",
+    "C:\\Users\\STElb\\.nuget\\packages\\autofac.extensions.dependencyinjection\\8.0.0\\autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",
     "C:\\Users\\STElb\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\STElb\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\STElb\\.nuget\\packages\\fluentvalidation\\11.2.0\\fluentvalidation.11.2.0.nupkg.sha512",
