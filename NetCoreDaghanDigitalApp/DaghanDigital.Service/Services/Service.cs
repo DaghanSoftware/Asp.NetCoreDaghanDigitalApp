@@ -1,6 +1,7 @@
 ﻿using DaghanDigital.Core.Repositories;
 using DaghanDigital.Core.Services;
 using DaghanDigital.Core.UnitOfWorks;
+using DaghanDigital.Service.Exceptions;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -48,7 +49,13 @@ namespace DaghanDigital.Service.Services
 
         public async Task<T> GetByIdAsync(int id)
         {
-            return await _repository.GetByIdAsync(id);
+            var hasProduct =  await _repository.GetByIdAsync(id);
+
+            if (hasProduct == null)
+            {
+                throw new ClientSideException($"{typeof(T).Name} not found");
+            }
+            return hasProduct;
         }
 
         public async Task RemoveAsync(T entity)
