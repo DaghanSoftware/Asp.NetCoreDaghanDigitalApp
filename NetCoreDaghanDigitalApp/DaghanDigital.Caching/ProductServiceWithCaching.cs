@@ -4,6 +4,7 @@ using DaghanDigital.Core.Models.Entities;
 using DaghanDigital.Core.Repositories;
 using DaghanDigital.Core.Services;
 using DaghanDigital.Core.UnitOfWorks;
+using DaghanDigital.Core.Utilities.Results;
 using DaghanDigital.Service.Exceptions;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Caching.Memory;
@@ -72,12 +73,12 @@ namespace DaghanDigital.Caching
             return Task.FromResult(product);
         }
 
-        public Task<List<ProductWithCategoryDto>> GetProductWithCategory()
+        public Task<CustomResponseDto<List<ProductWithCategoryDto>>> GetProductWithCategory()
         {
             var products = _memoryCache.Get<IEnumerable<Product>>(CacheProductKey);
             var productsWithCategoryDto = _mapper.Map<List<ProductWithCategoryDto>>(products);
 
-            return Task.FromResult(productsWithCategoryDto);
+            return Task.FromResult(CustomResponseDto<List<ProductWithCategoryDto>>.Success(200,productsWithCategoryDto));
         }
         //Yukarıdaki methodun  dönüş değeri olarak CustomResponseDto dönmüş hali
         //public Task<CustomResponseDto<List<ProductWithCategoryDto>>> GetProductWithCategory()

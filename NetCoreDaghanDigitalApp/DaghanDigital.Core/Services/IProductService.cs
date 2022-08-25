@@ -1,5 +1,6 @@
 ﻿using DaghanDigital.Core.Models.DTOs;
 using DaghanDigital.Core.Models.Entities;
+using DaghanDigital.Core.Utilities.Results;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -8,7 +9,8 @@ namespace DaghanDigital.Core.Services
     public interface IProductService : IService<Product>
     {
         //Wep Projesinde dönüş değeri farklı olduğu için bunu aktif ettim
-        Task<List<ProductWithCategoryDto>> GetProductWithCategory();
+        //API üzerinde MVC de işlemleri yapacağım için DönüşTipiCustomResponseDto Olanı aktif edip bunu iptal ettim.
+        //Task<List<ProductWithCategoryDto>> GetProductWithCategory();
 
 
 
@@ -17,6 +19,6 @@ namespace DaghanDigital.Core.Services
          * Yukarıdaki methodu kullandığımız zaman ApıController da bulunan CustomBaseControllerdaki CreateActionResult methodu geri dönüş değeri olarak CustomResponseDto beklediğinden hata çıkmaktadır.
          * Bu yüzden Apı Projesini şimdilik unloaded yapacağım. Bu sayede proje derlenirken API derlenmeyecektir.
          */
-        //Task<CustomResponseDto<List<ProductWithCategoryDto>>> GetProductWithCategory();
+        Task<CustomResponseDto<List<ProductWithCategoryDto>>> GetProductWithCategory();
     }
 }

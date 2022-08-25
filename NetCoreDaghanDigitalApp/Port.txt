@@ -1,0 +1,5 @@
+API => https://localhost:7115/ WepAPI
+API => http://localhost:5115 WepAPI
+
+WebUI => https://localhost:7016/ WebUI
+WebUI => http://localhost:5016 WebUI
