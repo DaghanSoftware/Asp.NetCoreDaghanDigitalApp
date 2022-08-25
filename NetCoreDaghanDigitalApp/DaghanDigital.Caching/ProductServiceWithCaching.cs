@@ -74,13 +74,21 @@ namespace DaghanDigital.Caching
             return Task.FromResult(product);
         }
 
-        public Task<CustomResponseDto<List<ProductWithCategoryDto>>> GetProductWithCategory()
+        public Task<List<ProductWithCategoryDto>> GetProductWithCategory()
         {
             var products = _memoryCache.Get<IEnumerable<Product>>(CacheProductKey);
             var productsWithCategoryDto =_mapper.Map<List<ProductWithCategoryDto>>(products);
 
-            return Task.FromResult( CustomResponseDto<List<ProductWithCategoryDto>>.Success(200,productsWithCategoryDto));
+            return Task.FromResult(productsWithCategoryDto);
         }
+        //Yukarıdaki methodun  dönüş değeri olarak CustomResponseDto dönmüş hali
+        //public Task<CustomResponseDto<List<ProductWithCategoryDto>>> GetProductWithCategory()
+        //{
+        //    var products = _memoryCache.Get<IEnumerable<Product>>(CacheProductKey);
+        //    var productsWithCategoryDto = _mapper.Map<List<ProductWithCategoryDto>>(products);
+
+        //    return Task.FromResult(CustomResponseDto<List<ProductWithCategoryDto>>.Success(200, productsWithCategoryDto));
+        //}
 
         public async Task RemoveAsync(Product entity)
         {
