@@ -270,3 +270,5 @@ C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDagha
 C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDaghanDigitalApp\DaghanDigital.WebUI\bin\Debug\net6.0\DaghanDigital.Core.pdb
 C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDaghanDigitalApp\DaghanDigital.WebUI\bin\Debug\net6.0\DaghanDigital.Repository.pdb
 C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDaghanDigitalApp\DaghanDigital.WebUI\obj\Debug\net6.0\DaghanDigital.WebUI.csproj.CopyComplete
+C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDaghanDigitalApp\DaghanDigital.WebUI\bin\Debug\net6.0\Autofac.dll
+C:\Users\STElb\OneDrive\Belgeler\GitHub\Asp.NetCoreDaghanDigitalApp\NetCoreDaghanDigitalApp\DaghanDigital.WebUI\bin\Debug\net6.0\Autofac.Extensions.DependencyInjection.dll

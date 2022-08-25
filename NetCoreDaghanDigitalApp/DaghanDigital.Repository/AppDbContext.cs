@@ -1,17 +1,12 @@
 ﻿using DaghanDigital.Core.Models.Entities;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DaghanDigital.Repository
 {
     public class AppDbContext : DbContext
     {
-        public AppDbContext(DbContextOptions<AppDbContext> options):base(options)
+        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
         }
         public DbSet<Category> Categories { get; set; }
@@ -24,11 +19,11 @@ namespace DaghanDigital.Repository
 
             modelBuilder.Entity<ProductFeature>().HasData(new ProductFeature()
             {
-                Id=1,
-                Color="Kırmızı",
-                Height=100,
-                Width=200,
-                ProductId=5
+                Id = 1,
+                Color = "Kırmızı",
+                Height = 100,
+                Width = 200,
+                ProductId = 5
             },
             new ProductFeature()
             {

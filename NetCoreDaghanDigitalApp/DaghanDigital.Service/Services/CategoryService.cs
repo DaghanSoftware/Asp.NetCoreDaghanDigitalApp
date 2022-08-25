@@ -5,11 +5,6 @@ using DaghanDigital.Core.Repositories;
 using DaghanDigital.Core.Services;
 using DaghanDigital.Core.UnitOfWorks;
 using DaghanDigital.Core.Utilities.Results;
-using DaghanDigital.Repository.Repositories;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace DaghanDigital.Service.Services

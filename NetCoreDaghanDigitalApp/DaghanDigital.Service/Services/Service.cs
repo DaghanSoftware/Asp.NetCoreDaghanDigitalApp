@@ -7,7 +7,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace DaghanDigital.Service.Services
@@ -49,7 +48,7 @@ namespace DaghanDigital.Service.Services
 
         public async Task<T> GetByIdAsync(int id)
         {
-            var hasProduct =  await _repository.GetByIdAsync(id);
+            var hasProduct = await _repository.GetByIdAsync(id);
 
             if (hasProduct == null)
             {

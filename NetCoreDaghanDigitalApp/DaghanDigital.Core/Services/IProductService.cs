@@ -1,15 +1,11 @@
 ﻿using DaghanDigital.Core.Models.DTOs;
 using DaghanDigital.Core.Models.Entities;
-using DaghanDigital.Core.Utilities.Results;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace DaghanDigital.Core.Services
 {
-    public interface IProductService:IService<Product>
+    public interface IProductService : IService<Product>
     {
         //Wep Projesinde dönüş değeri farklı olduğu için bunu aktif ettim
         Task<List<ProductWithCategoryDto>> GetProductWithCategory();

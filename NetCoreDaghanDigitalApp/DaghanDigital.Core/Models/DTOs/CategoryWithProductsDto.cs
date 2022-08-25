@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace DaghanDigital.Core.Models.DTOs
 {
-    public class CategoryWithProductsDto:CategoryDto
+    public class CategoryWithProductsDto : CategoryDto
     {
         public List<ProductDto> Products { get; set; }
     }

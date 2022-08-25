@@ -4,11 +4,7 @@ using DaghanDigital.Core.Models.Entities;
 using DaghanDigital.Core.Repositories;
 using DaghanDigital.Core.Services;
 using DaghanDigital.Core.UnitOfWorks;
-using DaghanDigital.Core.Utilities.Results;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace DaghanDigital.Service.Services
@@ -26,7 +22,7 @@ namespace DaghanDigital.Service.Services
         public async Task<List<ProductWithCategoryDto>> GetProductWithCategory()
         {
             var product = await _productRepository.GetProductWithCategory();
-            var productDto= _mapper.Map<List<ProductWithCategoryDto>>(product);
+            var productDto = _mapper.Map<List<ProductWithCategoryDto>>(product);
             return productDto;
         }
     }

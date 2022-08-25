@@ -4,7 +4,6 @@ using DaghanDigital.Core.Models.Entities;
 using DaghanDigital.Core.Repositories;
 using DaghanDigital.Core.Services;
 using DaghanDigital.Core.UnitOfWorks;
-using DaghanDigital.Core.Utilities.Results;
 using DaghanDigital.Service.Exceptions;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Caching.Memory;
@@ -12,7 +11,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace DaghanDigital.Caching
@@ -31,7 +29,7 @@ namespace DaghanDigital.Caching
             _memoryCache = memoryCache;
             _productRepository = productRepository;
             _unitOfWork = unitOfWork;
-            if (!_memoryCache.TryGetValue(CacheProductKey,out _))
+            if (!_memoryCache.TryGetValue(CacheProductKey, out _))
             {
                 _memoryCache.Set(CacheProductKey, _productRepository.GetProductWithCategory().Result);
             }
@@ -77,7 +75,7 @@ namespace DaghanDigital.Caching
         public Task<List<ProductWithCategoryDto>> GetProductWithCategory()
         {
             var products = _memoryCache.Get<IEnumerable<Product>>(CacheProductKey);
-            var productsWithCategoryDto =_mapper.Map<List<ProductWithCategoryDto>>(products);
+            var productsWithCategoryDto = _mapper.Map<List<ProductWithCategoryDto>>(products);
 
             return Task.FromResult(productsWithCategoryDto);
         }
@@ -118,7 +116,7 @@ namespace DaghanDigital.Caching
 
         public async Task CacheAllProductsAsync()
         {
-            _memoryCache.Set(CacheProductKey,await _productRepository.GetAll().ToListAsync());
+            _memoryCache.Set(CacheProductKey, await _productRepository.GetAll().ToListAsync());
         }
     }
 }
