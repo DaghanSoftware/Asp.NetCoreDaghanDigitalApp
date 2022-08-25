@@ -3,6 +3,7 @@ using Autofac.Extensions.DependencyInjection;
 using DaghanDigital.Repository;
 using DaghanDigital.Service.Mapping;
 using DaghanDigital.Service.Validations;
+using DaghanDigital.WebUI;
 using DaghanDigital.WebUI.Modules;
 using FluentValidation.AspNetCore;
 using Microsoft.EntityFrameworkCore;
@@ -22,6 +23,8 @@ builder.Services.AddDbContext<AppDbContext>(x =>
         option.MigrationsAssembly(Assembly.GetAssembly(typeof(AppDbContext)).GetName().Name);
     });
 });
+
+builder.Services.AddScoped(typeof(NotFoundFilter<>));
 
 /*AutoFac*/
 builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());

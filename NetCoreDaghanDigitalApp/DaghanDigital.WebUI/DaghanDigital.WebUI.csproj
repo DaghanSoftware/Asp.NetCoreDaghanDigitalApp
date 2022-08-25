@@ -16,4 +16,8 @@
     <ProjectReference Include="..\DaghanDigital.Service\DaghanDigital.Service.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
+
 </Project>
