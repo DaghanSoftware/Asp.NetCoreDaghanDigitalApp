@@ -1,4 +1,7 @@
-﻿namespace DaghanDigital.WebUI.Services
+﻿using DaghanDigital.Core.Models.DTOs;
+using DaghanDigital.Core.Utilities.Results;
+
+namespace DaghanDigital.WebUI.Services
 {
     public class CategoryApiService
     {
@@ -7,6 +10,12 @@
         public CategoryApiService(HttpClient httpClient)
         {
             _httpClient = httpClient;
+        }
+
+        public async Task<List<CategoryDto>> GetAllAsync()
+        {
+            var response = await _httpClient.GetFromJsonAsync<CustomResponseDto<List<CategoryDto>>>("categories");
+            return response.Data;
         }
     }
 }
