@@ -48,5 +48,35 @@ namespace DaghanDigital.WebUI.Controllers
             return View();
 
         }
+
+        public async Task<IActionResult> Update(int id)
+        {
+            var product = await _service.GetByIdAsync(id);
+
+            var categories = await _categoryService.GetAllAsync();
+            var categoriesDto = _mapper.Map<List<CategoryDto>>(categories.ToList());
+            ViewBag.categories = new SelectList(categoriesDto, "Id", "CategoryName",product.CategoryId);
+
+            return View(_mapper.Map<ProductDto>(product));
+
+
+        }
+        [HttpPost]
+        public async Task<IActionResult> Update(ProductDto productDto)
+        {
+
+            if (ModelState.IsValid)
+            {
+                await _service.UpdateAsync(_mapper.Map<Product>(productDto));
+                return RedirectToAction(nameof(Index));
+            }
+
+            var categories = await _categoryService.GetAllAsync();
+            var categoriesDto = _mapper.Map<List<CategoryDto>>(categories.ToList());
+            ViewBag.categories = new SelectList(categoriesDto, "Id", "CategoryName", productDto.CategoryId);
+            return View(productDto);
+
+
+        }
     }
 }
